@@ -5,7 +5,7 @@
 #: kitty has very powerful font management. You can configure
 #: individual font faces and even specify special fonts for particular
 #: characters.
-# font_family      monospace
+font_family      FiraCode Nerd Font Mono
 # bold_font        auto
 # italic_font      auto
 # bold_italic_font auto
@@ -514,7 +514,7 @@
 #: to/from always will only affect text subsequently received by
 #: kitty.
 
-# copy_on_select no
+copy_on_select yes
 
 #: Copy to clipboard or a private buffer on select. With this set to
 #: clipboard, selecting text with the mouse will cause the text to be
@@ -1235,7 +1235,6 @@ tab_activity_symbol *
 
 #: Template to use for active tabs. If not specified falls back to
 #: tab_title_template.
-
 active_tab_foreground   #FDFAF6
 active_tab_background   #0118D8
 active_tab_font_style   normal
